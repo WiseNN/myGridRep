@@ -36,7 +36,6 @@ Before the 'border-box' box-sizing model, giving percentage-width elements a sta
         width: 16.66%; 
         /*-- our gutter -- */
         padding: 12px; 
-        background-color: #FFDCDC;
     }
 
     .col-1{ width: 16.66%; }
@@ -52,7 +51,6 @@ Before the 'border-box' box-sizing model, giving percentage-width elements a sta
 
     /*-- some extra column content styling --*/
     [class*='col-'] > p {
-    // background-color: #FFC2C2; 
      padding: 0;
      margin: 0;
      text-align: center; 
